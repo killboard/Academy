@@ -1,0 +1,145 @@
+# HELP application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationChecks_total How many evaluations have ben performed
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationChecks_total counter
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationChecks_total 43.0
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_rate_per_second 4.2966122464236023E-4
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_one_min_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_one_min_rate_per_second 5.906490343677748E-11
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_five_min_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_five_min_rate_per_second 8.090521587807641E-5
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_fifteen_min_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_fifteen_min_rate_per_second 7.80829841817093E-4
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_min_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_min_seconds 0.15701479
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_max_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_max_seconds 0.960668362
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_mean_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_mean_seconds 0.26649983989904047
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_stddev_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_stddev_seconds 3.3113702632617595E-4
+# HELP application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds A measure of how long it takes to perform the ifood evaluation
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds summary
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds_count 43.0
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds{quantile="0.5"} 0.266499044
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds{quantile="0.75"} 0.266499044
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds{quantile="0.95"} 0.266499044
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds{quantile="0.98"} 0.266499044
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds{quantile="0.99"} 0.266499044
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationTimer_seconds{quantile="0.999"} 0.266499044
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_rate_per_second 4.2966121646836067E-4
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_one_min_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_one_min_rate_per_second 5.906490657325204E-11
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_five_min_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_five_min_rate_per_second 8.100151103145927E-5
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_fifteen_min_rate_per_second gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_fifteen_min_rate_per_second 7.820046134734541E-4
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_min_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_min_seconds 1.059018274
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_max_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_max_seconds 3.974127168
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_mean_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_mean_seconds 1.1153758849646864
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_stddev_seconds gauge
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_stddev_seconds 7.798815760679937E-4
+# HELP application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds A measure of how long it takes to perform the evaluation
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds summary
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds_count 43.0
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds{quantile="0.5"} 1.115372987
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds{quantile="0.75"} 1.115372987
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds{quantile="0.95"} 1.115372987
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds{quantile="0.98"} 1.115372987
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds{quantile="0.99"} 1.115372987
+application_com_movilepay_antifraud_engine_application_evaluation_event_EvaluationEventService_evaluationTimer_seconds{quantile="0.999"} 1.115372987
+# HELP application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationChecks_total How many ifood evaluations have ben performed
+# TYPE application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationChecks_total counter
+application_com_movilepay_antifraud_engine_application_evaluation_EvaluationServiceAdapter_ifoodEvaluationChecks_total 43.0
+# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management
+# TYPE jvm_memory_max_bytes gauge
+jvm_memory_max_bytes{area="heap",id="G1 Eden Space"} -1.0
+jvm_memory_max_bytes{area="nonheap",id="Metaspace"} -1.0
+# HELP jvm_gc_pause_seconds_count Time spent in GC pause
+# TYPE jvm_gc_pause_seconds_count counter
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="G1 Evacuation Pause"} 762.0
+# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the young generation memory pool after one GC to before the next
+# TYPE jvm_gc_memory_allocated_bytes_total counter
+jvm_gc_memory_allocated_bytes_total 3.5781607424E10
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'"} 1.22912768E8
+# HELP jvm_memory_used_bytes The amount of used memory
+# TYPE jvm_memory_used_bytes gauge
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'non-nmethods'"} 1435776.0
+# HELP jvm_threads_states_threads The current number of threads having a particular state
+# TYPE jvm_threads_states_threads gauge
+jvm_threads_states_threads{state="waiting"} 27.0
+# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use
+# TYPE jvm_memory_committed_bytes gauge
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'"} 2.0512768E7
+# HELP jvm_gc_max_data_size_bytes Max size of old generation memory pool
+# TYPE jvm_gc_max_data_size_bytes gauge
+jvm_gc_max_data_size_bytes 5.36870912E8
+jvm_threads_states_threads{state="blocked"} 0.0
+jvm_memory_max_bytes{area="heap",id="G1 Survivor Space"} -1.0
+jvm_memory_used_bytes{area="nonheap",id="Compressed Class Space"} 1.3283096E7
+# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool
+# TYPE jvm_buffer_count_buffers gauge
+jvm_buffer_count_buffers{id="mapped"} 0.0
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-nmethods'"} 5828608.0
+jvm_threads_states_threads{state="terminated"} 0.0
+# HELP jvm_threads_daemon_threads The current number of live daemon threads
+# TYPE jvm_threads_daemon_threads gauge
+jvm_threads_daemon_threads 19.0
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'non-nmethods'"} 2555904.0
+# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool
+# TYPE jvm_buffer_memory_used_bytes gauge
+jvm_buffer_memory_used_bytes{id="direct"} 1.7612832E7
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'"} 2.0338688E7
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="Metadata GC Threshold"} 1.0
+jvm_threads_states_threads{state="timed-waiting"} 7.0
+# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool
+# TYPE jvm_buffer_total_capacity_bytes gauge
+jvm_buffer_total_capacity_bytes{id="direct"} 1.7612831E7
+# HELP jvm_gc_live_data_size_bytes Size of old generation memory pool after a full GC
+# TYPE jvm_gc_live_data_size_bytes gauge
+jvm_gc_live_data_size_bytes 9.809104E7
+jvm_memory_max_bytes{area="nonheap",id="Compressed Class Space"} 1.073741824E9
+jvm_memory_committed_bytes{area="heap",id="G1 Eden Space"} 5.4525952E7
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'"} 3.5848192E7
+# HELP jvm_gc_pause_seconds_max Time spent in GC pause
+# TYPE jvm_gc_pause_seconds_max gauge
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="G1 Evacuation Pause"} 0.066
+jvm_memory_used_bytes{area="heap",id="G1 Survivor Space"} 2097152.0
+# HELP jvm_gc_pause_seconds_sum Time spent in GC pause
+# TYPE jvm_gc_pause_seconds_sum counter
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="G1 Evacuation Pause"} 3.602
+jvm_memory_committed_bytes{area="nonheap",id="Metaspace"} 1.0440704E8
+jvm_buffer_memory_used_bytes{id="mapped"} 0.0
+jvm_memory_max_bytes{area="heap",id="G1 Old Gen"} 5.36870912E8
+jvm_threads_states_threads{state="new"} 0.0
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'"} 1.22916864E8
+jvm_threads_states_threads{state="runnable"} 11.0
+jvm_memory_used_bytes{area="heap",id="G1 Eden Space"} 1.9922944E7
+jvm_buffer_total_capacity_bytes{id="mapped"} 0.0
+# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads
+# TYPE jvm_threads_live_threads gauge
+jvm_threads_live_threads 45.0
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'"} 1.8598528E7
+# HELP jvm_classes_unloaded_classes_total The total number of classes unloaded since the Java virtual machine has started execution
+# TYPE jvm_classes_unloaded_classes_total counter
+jvm_classes_unloaded_classes_total 3631.0
+jvm_memory_committed_bytes{area="heap",id="G1 Survivor Space"} 2097152.0
+jvm_memory_used_bytes{area="nonheap",id="Metaspace"} 9.6365616E7
+# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine
+# TYPE jvm_classes_loaded_classes gauge
+jvm_classes_loaded_classes 15970.0
+# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset
+# TYPE jvm_threads_peak_threads gauge
+jvm_threads_peak_threads 46.0
+jvm_memory_used_bytes{area="heap",id="G1 Old Gen"} 9.8688416E7
+jvm_memory_committed_bytes{area="heap",id="G1 Old Gen"} 1.18489088E8
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="Metadata GC Threshold"} 0.028
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="Metadata GC Threshold"} 0.028
+jvm_buffer_count_buffers{id="direct"} 303.0
+# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC
+# TYPE jvm_gc_memory_promoted_bytes_total counter
+jvm_gc_memory_promoted_bytes_total 3.4708452E8
+jvm_memory_committed_bytes{area="nonheap",id="Compressed Class Space"} 1.404928E7
