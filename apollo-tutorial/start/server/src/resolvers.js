@@ -67,6 +67,9 @@ module.exports = {
     },
     launch: (_, { id }, { dataSources }) =>
       dataSources.launchAPI.getLaunchById({ launchId: id }),
+    businessAccount:(_, { accountReference }, { dataSources }) => {
+      return dataSources.accountDataRepositoryAPI.getBusinessAccountByAccountReference(accountReference)
+    }, 
     me: (_, __, { dataSources }) => dataSources.userAPI.findOrCreateUser()
   },
   Mission: {

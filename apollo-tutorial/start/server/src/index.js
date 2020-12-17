@@ -5,6 +5,7 @@ const { createStore } = require('./utils')
 
 const LaunchAPI = require('./datasources/launch')
 const UserAPI = require('./datasources/user')
+const AccountDataRepositoryAPI = require('./datasources/account-data-repository')
 
 const store = createStore();
 const isEmail = require('isemail')
@@ -26,7 +27,8 @@ const server = new ApolloServer({
    resolvers,
    dataSources: () => ({
      launchAPI: new LaunchAPI(),
-     userAPI: new UserAPI( { store })
+     userAPI: new UserAPI( { store }),
+     accountDataRepositoryAPI: new AccountDataRepositoryAPI()
    }) 
 });
 

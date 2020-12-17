@@ -2,6 +2,25 @@ const { gql } = require('apollo-server');
 
 const typeDefs = gql`
   # Your schema will go here
+  type BusinessAccount {
+    accountReference: String
+    accountSetupStatus: String
+    accountStatus: String
+    accountType: String
+    businessName: String
+    companyDocument: String
+    companyType: String
+    companyAddresses: [CompanyAddress]
+  }
+
+  type CompanyAddress {
+    id: String,
+    addressType: String,
+    city: String,
+    complement: String,
+    countryCode: String
+  }
+
   type Launch {
     id: ID!
     site: String
@@ -52,6 +71,7 @@ const typeDefs = gql`
    ): LaunchConnection!
    launch(id: ID!): Launch
    me: User
+   businessAccount(accountReference: String): BusinessAccount
   }
 
   """
